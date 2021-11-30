@@ -1,0 +1,42 @@
+body{
+    background: rgb(47, 223, 85);
+}
+
+#conteudo{
+    width: 400px;
+    background: rgb(0, 255, 55);
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: darkgreen;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#conteudo.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#mostrarmais{
+    background: forestgreen;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
